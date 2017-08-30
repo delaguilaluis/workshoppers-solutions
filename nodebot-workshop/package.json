@@ -1,0 +1,24 @@
+{
+  "name": "nodebot-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "01-blink-blink.js",
+  "dependencies": {
+    "dnode": "~1.2.2",
+    "johnny-five": "~0.10.0"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "~11.1.0",
+    "eslint": "~3.5.0",
+    "eslint-plugin-import": "~1.15.0",
+    "eslint-plugin-jsx-a11y": "~2.2.2",
+    "eslint-plugin-react": "~6.2.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "delaguilaluis",
+  "license": "ISC"
+}
