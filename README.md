@@ -1,3 +1,3 @@
 ## Workshoppers Solutions
 
-My solutions to NodeSchool workshoppers.
+Solutions to the workshoppers of NodeSchool

@@ -1,0 +1,26 @@
+{
+  "name": "workshoppers-solutions",
+  "version": "1.0.0",
+  "description": "Solutions to the workshoppers of NodeSchool",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delaguilaluis/workshoppers-solutions.git"
+  },
+  "keywords": [
+    "nodeschool",
+    "workshoppers",
+    "solutions"
+  ],
+  "author": "Luis Del Águila <luisdelaguila@outlook.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/delaguilaluis/workshoppers-solutions/issues"
+  },
+  "homepage": "https://github.com/delaguilaluis/workshoppers-solutions#readme",
+  "devDependencies": {
+    "standard": "^10.0.3"
+  }
+}
