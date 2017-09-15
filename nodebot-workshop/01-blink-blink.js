@@ -1,9 +1,9 @@
-'use strict';
+'use strict'
 
-const five = require('johnny-five');
+const five = require('johnny-five')
 
-const board = new five.Board();
+const board = new five.Board()
 board.on('ready', () => {
-  const led = new five.Led(13);
-  led.strobe(1000);
-});
+  const led = new five.Led(13)
+  led.strobe(1000)
+})

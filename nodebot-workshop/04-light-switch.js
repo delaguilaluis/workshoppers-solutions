@@ -1,20 +1,20 @@
-'use strict';
+'use strict'
 
-const five = require('johnny-five');
+const five = require('johnny-five')
 
-const board = new five.Board();
+const board = new five.Board()
 board.on('ready', () => {
-  const button = new five.Button(5);
-  const led = new five.Led(9);
+  const button = new five.Button(5)
+  const led = new five.Led(9)
 
-  let isLightOn = false;
+  let isLightOn = false
   button.on('press', () => {
     if (isLightOn) {
-      led.off();
+      led.off()
     } else {
-      led.on();
+      led.on()
     }
 
-    isLightOn = !isLightOn;
-  });
-});
+    isLightOn = !isLightOn
+  })
+})

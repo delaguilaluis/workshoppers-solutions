@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Solutions to the workshoppers of NodeSchool",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint-fix": "standard --fix",
+    "test": "standard"
   },
   "repository": {
     "type": "git",
@@ -19,8 +20,5 @@
   "bugs": {
     "url": "https://github.com/delaguilaluis/workshoppers-solutions/issues"
   },
-  "homepage": "https://github.com/delaguilaluis/workshoppers-solutions#readme",
-  "devDependencies": {
-    "standard": "^10.0.3"
-  }
+  "homepage": "https://github.com/delaguilaluis/workshoppers-solutions#readme"
 }

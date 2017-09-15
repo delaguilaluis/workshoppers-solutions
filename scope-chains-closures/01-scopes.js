@@ -1,3 +1,2 @@
-function foo () {
- const bar;
-}
+// function foo () {
+// }

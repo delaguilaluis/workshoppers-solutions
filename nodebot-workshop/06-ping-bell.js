@@ -1,11 +1,11 @@
-'use strict';
+'use strict'
 
-const five = require('johnny-five');
-const dgram = require('dgram');
+const five = require('johnny-five')
+const dgram = require('dgram')
 
-const board = new five.Board();
+const board = new five.Board()
 board.on('ready', () => {
-  const piezo = new five.Piezo(8);
+  const piezo = new five.Piezo(8)
   const server = dgram.createSocket('udp4', () => {
     piezo.play({
       song: [
@@ -26,11 +26,11 @@ board.on('ready', () => {
         [null, 1 / 4],
         ['G4', 1],
         ['F4', 1],
-        [null, 1 / 2],
+        [null, 1 / 2]
       ],
-      tempo: 100,
-    });
-  });
+      tempo: 100
+    })
+  })
 
-  server.bind(1337);
-});
+  server.bind(1337)
+})
