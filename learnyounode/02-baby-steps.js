@@ -1,8 +1,9 @@
-const result = process.argv.map((arg) => Number(arg))
-  .filter((arg) => !Number.isNaN(arg))
-  .reduce((accumulator, arg) => {
-    accumulator += arg
-    return accumulator
-  }, 0)
+'use strict'
 
-console.log(result)
+let sum = 0
+
+for (var i = 2; i < process.argv.length; i += 1) {
+  sum += Number(process.argv[i])
+}
+
+console.log(sum)

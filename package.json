@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/delaguilaluis/workshoppers-solutions/issues"
   },
-  "homepage": "https://github.com/delaguilaluis/workshoppers-solutions#readme"
+  "homepage": "https://github.com/delaguilaluis/workshoppers-solutions#readme",
+  "devDependencies": {
+    "standard": "^10.0.3"
+  }
 }
